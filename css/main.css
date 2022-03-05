@@ -250,3 +250,11 @@
   .lh-2{
     line-height: 2em;
   }
+
+  .active {
+    background-color: #E9424C !important;
+    border-radius: 4px;
+  }
+  .active a {
+    color: #FFF !important;
+  }

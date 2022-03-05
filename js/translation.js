@@ -1,9 +1,9 @@
 var app = {};
 app.translations = {
   ru: {
-    english_lang: "Английский",
+    english_lang: "English",
     russian_lang: "Русский",
-    tajik_lang: "Таджикский",
+    tajik_lang: "Тоҷикӣ",
     home: "Главная страница",
     about: "О Волшебном Сундучке",
     parents: "Родители",
@@ -108,8 +108,8 @@ app.translations = {
     e_second_tab_line: "Вспомогательные материалы",
   },
   tj: {
-    english_lang: "Aнглисӣ",
-    russian_lang: "Русӣ",
+    english_lang: "English",
+    russian_lang: "Русский",
     tajik_lang: "Тоҷикӣ",
     home: "Асосӣ",
     research : "Исследования и отчеты",
