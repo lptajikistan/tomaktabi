@@ -215,7 +215,9 @@ app.translations = {
     e_second_tab_line: "Маводи иловагӣ",
   }
 };
+
 setLanguage(getCookie('lang') || 'tj');
+
 function setLanguage(language) {
   var x = getCookie('lang');
   if (x) {
@@ -238,6 +240,24 @@ function setLanguage(language) {
       document.getElementById(property).style.fontFamily = 'OpenSans';
     }
   }
+  
+  // custom feedback form settings
+  var feedback_frm =  document.getElementById('feedback_frm1');
+  if(typeof(feedback_frm) != 'undefined' && feedback_frm != null){
+    if(currentLanguage=='tj') {
+      document.getElementById("feedback_frm1").href="https://forms.gle/ymhPMj8hSD5ADW1X9";
+      document.getElementById("feedback_frm1").title="Мушкилоти техникӣ";
+    }
+    if(currentLanguage=='ru') {
+      document.getElementById("feedback_frm1").href="https://forms.gle/Ln88WpAXMsSJ5X9Q7";
+      document.getElementById("feedback_frm1").title="Форма обратной связи";
+    }
+    if(currentLanguage=='en') {
+      document.getElementById("feedback_frm1").href="https://forms.gle/wrL92AP7MvVYWkuG8";
+      document.getElementById("feedback_frm1").title="Feedback form";
+    }  
+  }
+
 }
 
 function setCookie(name, value, days) {
