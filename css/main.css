@@ -251,10 +251,10 @@
     line-height: 2em;
   }
 
-  .active {
+  li.active {
     background-color: #E9424C !important;
     border-radius: 4px;
   }
-  .active a {
+  li.active a {
     color: #FFF !important;
   }
