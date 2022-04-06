@@ -266,7 +266,7 @@
   text-transform: uppercase;
   }
   .bn_txt_s1 {
-  background-color: rgba(27, 155, 197, 0.75);
+  background-color: rgba(27, 155, 197, 0.58);
   border-left-color: rgb(242, 24, 79);
   border-left-style: solid;
   border-left-width: 6px;
@@ -286,7 +286,7 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .bn_txt_s2 {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.51);
   box-sizing: border-box;
   color: rgb(255, 255, 255);
   display: block;
