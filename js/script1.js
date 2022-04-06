@@ -8,6 +8,6 @@ $( document ).ready(function() {
     id: 'mapbox/streets-v11',
     tileSize: 512,
     zoomOffset: -1,
-    accessToken: 'kDKwNMrfrsFeWXuszSdUX5cM2_dwQBM4zTt40Dcw1qI'
+    accessToken: 'UwfWoVpE_cioaFr-Fa0Y-LLbfabiuBFJfwrnABSbAKc' //kDKwNMrfrsFeWXuszSdUX5cM2_dwQBM4zTt40Dcw1qI
 }).addTo(map);
 });
