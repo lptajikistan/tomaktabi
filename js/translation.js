@@ -256,17 +256,33 @@ function setLanguage(language) {
   // custom feedback form settings
   var feedback_frm =  document.getElementById('feedback_frm1');
   if(typeof(feedback_frm) != 'undefined' && feedback_frm != null){
+    let feedback_page = document.getElementById("feedback_frm2");
     if(currentLanguage=='tj') {
       document.getElementById("feedback_frm1").href="https://forms.gle/ymhPMj8hSD5ADW1X9";
       document.getElementById("feedback_frm1").title="Мушкилоти техникӣ";
+      if(typeof(feedback_page) != 'undefined' && feedback_page != null){
+        document.getElementById("feedback_frm2").href="https://forms.gle/ymhPMj8hSD5ADW1X9";
+        document.getElementById("feedback_frm2").title="Мушкилоти техникӣ";
+        document.getElementById("feedback_title1").innerHTML="Агар шумо ҳангоми истифодаи платформа мушкилоти техникӣ дошта бошед - варақаи фикру мулоҳизаҳоро пур кунед";
+      }
     }
     if(currentLanguage=='ru') {
       document.getElementById("feedback_frm1").href="https://forms.gle/Ln88WpAXMsSJ5X9Q7";
       document.getElementById("feedback_frm1").title="Форма обратной связи";
+      if(typeof(feedback_page) != 'undefined' && feedback_page != null){
+        document.getElementById("feedback_frm2").href="https://forms.gle/Ln88WpAXMsSJ5X9Q7";
+        document.getElementById("feedback_frm2").title="Форма обратной связи";
+        document.getElementById("feedback_title1").innerHTML="Если у Вас возникли технические проблемы при использовании платформы - заполните форму обратной связи";
+      }
     }
     if(currentLanguage=='en') {
       document.getElementById("feedback_frm1").href="https://forms.gle/wrL92AP7MvVYWkuG8";
       document.getElementById("feedback_frm1").title="Feedback form";
+      if(typeof(feedback_page) != 'undefined' && feedback_page != null){
+        document.getElementById("feedback_frm2").href="https://forms.gle/wrL92AP7MvVYWkuG8";
+        document.getElementById("feedback_frm2").title="Feedback form";
+        document.getElementById("feedback_title1").innerHTML="If you faced technical issues when using the platform - please fill out the feedback form";
+      }
     }  
   }
 
