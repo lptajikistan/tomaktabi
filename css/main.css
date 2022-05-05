@@ -38,6 +38,14 @@
   }
 
   #get_started {
+    color: #FFF;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-color: #1d810b;
+  }
+  /* #get_started {
       padding-left: 30px;
       padding-right: 30px;
       padding-top: 12px;
@@ -50,7 +58,7 @@
     background-color:#4A7DBF;
     border-color: #4A7DBF ;
     color: white;
-}
+} */
 
 #currated_collection {
     font-size: 25px;
@@ -298,4 +306,4 @@
 .upper {
   text-transform: uppercase;
 }
-#myMap { height: 600px; }
+#myMap { height: 480px; }
