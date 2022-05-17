@@ -307,3 +307,10 @@
   text-transform: uppercase;
 }
 #myMap { height: 480px; }
+#vplay_btn {
+  color: #dc3545;
+  font-size:100px;
+}
+#vplay_btn:hover {
+  color: red;
+}
