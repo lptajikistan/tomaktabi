@@ -3,6 +3,8 @@ $( document ).ready(function() {
 	let c_year = new Date().getFullYear();
     $("#year").text( "2021 - " + c_year);
 
+    $("#vplay_btn").delay(500).fadeIn(700);
+
     var $videoSrc;  
     $('.video-btn').click(function() {
         $videoSrc = $(this).data( "src" );

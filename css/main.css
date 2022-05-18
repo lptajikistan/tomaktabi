@@ -323,6 +323,7 @@
 }
 
 #vplay_btn {
+  display: none;
   color: red;
   font-size:110px;
   border-radius: 50%;
