@@ -307,10 +307,51 @@
   text-transform: uppercase;
 }
 #myMap { height: 540px; }
+
+#video-btn-box {
+  /* position:absolute;
+  left:5px;
+  top:5px; */
+  /* position:absolute;
+  top:40%;
+  right:100px;
+  margin: auto auto; */
+  position:absolute;
+  top:5px;
+  left:5px;
+  z-index:10;
+}
+
 #vplay_btn {
-  color: #dc3545;
-  font-size:100px;
+  color: red;
+  font-size:110px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0px 0px 40px 20px rgba(254, 255, 220, 0.7);
 }
 #vplay_btn:hover {
-  color: red;
+  color: #e80009;
+  background-color: white;
+}
+
+.modal-dialog {
+  max-width: 90%; /* 800px */
+  margin: 30px auto;
+}
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+.close:hover {
+  color:#fff;
 }
