@@ -308,6 +308,15 @@
 }
 #myMap { height: 540px; }
 
+.bgcolor-topline {
+  background-color: #FFFFFF;
+}
+
+.bg-kids {
+  background-image: url("../img/bg_kids.jpg");
+  background-repeat: repeat-x;
+}
+
 #vplay_btn {
   position: absolute;
   top:40%;
