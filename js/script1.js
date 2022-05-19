@@ -3,7 +3,11 @@ $( document ).ready(function() {
 	let c_year = new Date().getFullYear();
     $("#year").text( "2021 - " + c_year);
 
-    $("#vplay_btn").delay(500).fadeIn(700);
+    $('.carousel').carousel({
+        interval: 8000
+    })
+
+    $("#vplay").delay(500).fadeIn(700);
 
     var $videoSrc;  
     $('.video-btn').click(function() {

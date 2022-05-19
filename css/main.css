@@ -308,29 +308,23 @@
 }
 #myMap { height: 540px; }
 
-#video-btn-box {
-  /* position:absolute;
-  left:5px;
-  top:5px; */
-  /* position:absolute;
-  top:40%;
-  right:100px;
-  margin: auto auto; */
-  position:absolute;
-  top:5px;
-  left:5px;
+#vplay_btn {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
   z-index:10;
 }
 
-#vplay_btn {
+#vplay {
   display: none;
   color: red;
-  font-size:110px;
+  font-size:8em;
   border-radius: 50%;
   background-color: white;
   box-shadow: 0px 0px 40px 20px rgba(254, 255, 220, 0.7);
 }
-#vplay_btn:hover {
+#vplay:hover {
   color: #e80009;
   background-color: white;
 }
