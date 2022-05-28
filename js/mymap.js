@@ -27,7 +27,7 @@ $( document ).ready(function() {
 
 		$.ajax({
 			dataType: "json",
-			url: "geojson/Tajikistan.geojson",
+			url: "json/geojson/Tajikistan.geojson",
 			success: function(data) {
 				$(data.features).each(function(key, data) {
 					Tajikistan_boundary.addData(data);
