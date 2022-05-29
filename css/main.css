@@ -359,3 +359,12 @@
 .close:hover {
   color:#fff;
 }
+
+#regions_box {
+  text-align: right;
+  padding: 4px;
+}
+#region {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+}
