@@ -25,7 +25,40 @@ $( document ).ready(function() {
     $('#myModal').on('hide.bs.modal', function (e) {
         // a poor man's stop video
         $("#video").attr('src',$videoSrc); 
-    }) 
+    });
+
+    function getStatV1(filepath='./json/ex_PublicStatistics.json')
+    {
+        $.getJSON(filepath, function(data) {
+			//console.log(data);
+            // Content
+			if(typeof data.Content[0] !== "undefined"){
+                let content_cat={
+                    'Барномаҳои таълимӣ': 0,
+                    'Дастурҳои методӣ': 0,
+                    'Курсҳои такмили ихтисос': 0,
+                    'Машғулият ва бозиҳо': 0,
+                    'Мақолаҳо': 0,
+                    'Нақшаи таълимӣ': 0,
+                    'Омор': 0,
+                    'Санадҳо': 0
+                }
+				const stat_cont = data.Content[0];
+				for (var cont_cat in stat_cont) {
+					if(content_cat.hasOwnProperty(cont_cat)){
+						console.log(cont_cat + ' --> ' + stat_cont[cont_cat]);
+						///content_cat[cont_cat]=stat_cont[cont_cat];
+					}
+				}
+				
+			} else {
+				console.log('requird JSON obj property not found');
+			}
+
+		});
+    }
+
+    //getStatV1();
         
 
 });
